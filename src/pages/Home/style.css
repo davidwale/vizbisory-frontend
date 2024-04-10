@@ -1,0 +1,138 @@
+.home {
+    padding: 50px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.job-dropdown-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-profile-icon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #888888;
+    object-fit: cover;
+    text-align: center;
+    color: #eee8e8;
+}
+
+.product-profile-icon h1 {
+    margin: 0;
+}
+
+.product-card-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #888888;
+    background-color: #fff;
+}
+
+.product-card-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-title-name {
+    font-size: 19px;
+    font-weight: 600;
+    color: #315eff;
+}
+
+.product-card-top-section span {
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.product-card-img-container {
+    display: flex;
+}
+
+.product-card-img-container p {
+    margin: 0;
+}
+
+.product-card-bottom-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.product-card-bottom-section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card-bottom-section div p {
+    padding: 5px;
+    margin: 0;
+}
+
+.product-card-bottom-section span {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product-card-bottom-section a {
+    color: #315eff !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.product-board-location {
+    color: #888888;
+    background-color: #eee8e8;
+    border-radius: 3px;
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+.ml-2 {
+    margin-left: 10px;
+}
+
+.product-card-btn-container button {
+    padding: 2px 8px 4px 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.product-apply-btn {
+    background-color: #315eff;
+    color: #fff !important;
+}
+
+.product-apply-btn:hover {
+    background-color: #072286;
+    border: 1px solid #315eff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.farmer-name {
+    font-size: 14px;
+    font-weight: 510;
+}
+
+.farmer-name span {
+    font-size: 17px;
+    font-weight: bold;
+}
