@@ -28,17 +28,17 @@ npm install
 
 # 4. Set up environment variables:
 
-# - Create a .env file in the root directory of the backend.
+- Create a .env file in the root directory of the backend.
 
-# - Add the required environment variables (REACT_APP_API_URL).
+- Add the required environment variables (REACT_APP_API_URL).
 
-# - Example:
+- Example:
 
-# ```
+```
 
-# REACT_APP_API_URL=http://localhost:4000/api
+REACT_APP_API_URL=http://localhost:4000/api
 
-# ```
+```
 
 # 5. Start the server:
 
